@@ -20,7 +20,7 @@ const Skim = () => {
           <div class="card flex-shrink-0 w-full max-w-md shadow-2xl bg-base-100">
             <div class="card-body">
               <img
-                src="https://api.lorem.space/image/movie?w=260&h=400"
+                src="https://api.lorem.space/image/movie?hash=4744"
                 class="max-w-md rounded-lg shadow-2xl max-h-72"
                 alt="images"
               />
