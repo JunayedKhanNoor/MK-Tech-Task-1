@@ -28,7 +28,7 @@ const Navbar = () => {
         </>
       );
   return (
-    <div className="w-full">
+    <div className="w-full px-8 md:px-16">
       <div className=" flex justify-between navbar bg-base-100 p-0 m-0">
         <div className="navbar-start md:hidden">
           <div className="dropdown">
@@ -63,8 +63,8 @@ const Navbar = () => {
         </div>
         <div className="navbar-end">
           <div className="uppercase flex justify-between items-center bg-white p-2 rounded-full shadow-2xl">
-              <p role='button' className="mx-9">Login</p>
-              <p role='button' className="bg-primary px-6 rounded-full shadow-2xl text-white py-2">Sign Up</p>
+              <p role='button' className="mx-3 md:mx-9">Login</p>
+              <p role='button' className="bg-primary px-2 md:px-6 rounded-full shadow-2xl text-white py-1 md:py-2">Sign Up</p>
           </div>
         </div>
       </div>
