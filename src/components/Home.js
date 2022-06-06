@@ -1,4 +1,5 @@
 import React from 'react';
+import AddFormats from './add-format/AddFormats';
 import Banner from './Banner';
 import Header from './Header';
 import Navbar from './Navbar';
@@ -9,7 +10,8 @@ const Home = () => {
             <Header></Header>
             <Navbar></Navbar> 
             <Banner></Banner> 
-            <OurService></OurService>         
+            <OurService></OurService> 
+            <AddFormats></AddFormats>        
         </div>
         // container mx-auto overflow-hidden
     );
