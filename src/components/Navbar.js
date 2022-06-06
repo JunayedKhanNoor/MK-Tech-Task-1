@@ -62,7 +62,10 @@ const Navbar = () => {
           </ul>
         </div>
         <div className="navbar-end">
-          <button className="btn">Get started</button>
+          <div className="uppercase flex justify-between items-center bg-white p-2 rounded-full shadow-2xl">
+              <p role='button' className="mx-9">Login</p>
+              <p role='button' className="bg-primary px-6 rounded-full shadow-2xl text-white py-2">Sign Up</p>
+          </div>
         </div>
       </div>
     </div>
