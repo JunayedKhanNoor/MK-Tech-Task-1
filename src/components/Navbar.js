@@ -64,7 +64,7 @@ const Navbar = () => {
         <div className="navbar-end">
           <div className="uppercase flex justify-between items-center bg-white p-2 rounded-full shadow-2xl">
               <p role='button' className="mx-3 md:mx-9">Login</p>
-              <p role='button' className="bg-primary px-2 md:px-6 rounded-full shadow-2xl text-white py-1 md:py-2">Sign Up</p>
+              <p className="btn btn-primary px-2 md:px-6 rounded-full shadow-2xl text-white py-1 md:py-2">Sign Up</p>
           </div>
         </div>
       </div>
